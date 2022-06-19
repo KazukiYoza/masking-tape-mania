@@ -19,7 +19,7 @@ export default {
       { rel: 'stylesheet', href: 'https://unpkg.com/modern-css-reset/dist/reset.min.css' },
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
       { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
-      // { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Zen+Maru+Gothic:wght@400;500;700&display=swap' ,defer: true},
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Zen+Maru+Gothic:wght@400;500;700&display=swap' ,defer: true},
       { rel: 'stylesheet', href: 'https://unpkg.com/aos@2.3.1/dist/aos.css' },
       { rel: 'stylesheet', href: '~/assets/css/style.css' },
       { rel: 'javascript', href: 'https://unpkg.com/aos@2.3.1/dist/aos.js' ,defer: true},
