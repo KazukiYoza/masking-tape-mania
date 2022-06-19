@@ -74,10 +74,16 @@
     }) {
       const dataNews = await $microcms.get({
         endpoint: 'news',
-        queries: { limit: 3},
+        queries: {
+          limit: 3 
+          },
       });
       const dataMaste = await $microcms.get({
         endpoint: 'maste',
+        queries: { 
+          limit: 12,
+          offset: 0,
+         },
       });
       return {
         dataNews: dataNews.contents,
