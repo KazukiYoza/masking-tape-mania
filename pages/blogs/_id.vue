@@ -1,7 +1,7 @@
 <template>
     <div class="page-item">
         <Header/>
-        <!-- <p>{{ post }}</p> -->
+        <p>{{ post }}</p>
         <div class="container container--page">
             <div class="page-contents">
                 <h2 class="page-title">{{ post.title }}</h2>
