@@ -1,14 +1,13 @@
 <template>
     <div class="page-item">
         <Header/>
-        <p>{{ post }}</p>
         <div class="container container--page">
             <div class="page-contents">
                 <h2 class="page-title">{{ post.title }}</h2>
                 <time
                     class="page-date"
-                    :datetime="post.postDate"
-                    v-text="$dateFns.format(new Date(post.postDate), 'yyyy.MM.dd')"
+                    :datetime="post.createdAt"
+                    v-text="$dateFns.format(new Date(post.createdAt), 'yyyy.MM.dd')"
                 />
                 <figure class="post-thumbnail">
                     <img :src="post.thumbnail.url" alt="" width="800" height="600">
