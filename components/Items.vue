@@ -5,7 +5,7 @@
         <h2 class="section-title bg-masking-tape">アイテム</h2>
         <div class="items">
           <div class="item" data-aos="fade-down" :data-aos-delay="index * 100 + 200" v-for="(item,index) in items"
-            :key="item.createdAt">
+            :key="item.publishedAt">
             <!-- {{item}} -->
             <router-link :to="`/items/${item.id}/`" class="item__link">
               <div class="item__caption">

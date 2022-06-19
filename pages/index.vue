@@ -27,7 +27,7 @@
       <div class="lead__inner container">
         <h2 class="section-title">マスキングテープが好きです。</h2>
         <figure class="lead-image">
-          <img src="../static/images/image-masking-tape.png" alt="">
+          <img src="~/assets/images/image-masking-tape.png" alt="">
         </figure>
         <p>
           元々は塗装の保護用などで使用されていた<br class="sp-only">マスキングテープ。<br>

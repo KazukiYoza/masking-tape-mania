@@ -4,11 +4,11 @@
       <div>
         <h2 class="section-title bg-masking-tape bg-masking-tape--3">ブログ</h2>
         <div class="blogs">
-          <div class="blog" v-for="post in posts" :key="post.createdAt">
+          <div class="blog" v-for="post in posts" :key="post.publishedAt">
             <!-- {{post}} -->
             <router-link :to="`/blogs/${post.id}/`" class="post__link">
                 <div class="blog__inner">
-                    <time :datetime="post.createdAt" v-text="$dateFns.format(new Date(post.createdAt), 'yyyy.MM.dd')" />
+                    <time :datetime="post.publishedAt" v-text="$dateFns.format(new Date(post.publishedAt), 'yyyy.MM.dd')" />
                     <h3 class="post__title">{{post.title}}</h3>
               </div>
             </router-link>

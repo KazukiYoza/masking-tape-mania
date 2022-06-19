@@ -6,8 +6,8 @@
                 <h2 class="page-title">{{ post.title }}</h2>
                 <time
                     class="page-date"
-                    :datetime="post.createdAt"
-                    v-text="$dateFns.format(new Date(post.createdAt), 'yyyy.MM.dd')"
+                    :datetime="post.publishedAt"
+                    v-text="$dateFns.format(new Date(post.publishedAt), 'yyyy.MM.dd')"
                 />
                 <figure class="post-thumbnail">
                     <img :src="post.thumbnail.url" alt="" width="800" height="600">
