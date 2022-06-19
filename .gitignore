@@ -103,3 +103,4 @@ sw.*
 # package-lock.json
 # package.json
 # .gitignore
+dist/
