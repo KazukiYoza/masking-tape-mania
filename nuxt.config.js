@@ -45,7 +45,8 @@ export default {
   },
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    "nuxt-microcms-module"
+    "nuxt-microcms-module",
+    '@nuxtjs/google-analytics'
   ],
   microcms: {
     options: {
@@ -54,7 +55,14 @@ export default {
     },
     mode: process.env.nodeEnv === "production" ? "server" : "all",
   },
-
+  googleAnalytics: {
+    id: process.env.GOOGLE_ANALYTICS_ID
+  },
+  publicRuntimeConfig: {
+    googleAnalytics: {
+      id: process.env.GOOGLE_ANALYTICS_ID
+    }
+  },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // 'nuxt-webfontloader',
