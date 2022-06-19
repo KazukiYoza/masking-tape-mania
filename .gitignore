@@ -69,7 +69,7 @@ typings/
 .nuxt
 
 # Nuxt generate
-# dist
+dist
 
 # vuepress build output
 .vuepress/dist
@@ -103,4 +103,3 @@ sw.*
 # package-lock.json
 # package.json
 # .gitignore
-dist/
