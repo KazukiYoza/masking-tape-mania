@@ -24,12 +24,15 @@ export default {
       { rel: 'javascript', href: 'https://unpkg.com/aos@2.3.1/dist/aos.js' ,defer: true},
       { rel: 'javascript', href: '~/assets/js/script.js' }
     ],
-    script: [{
-      async: true,
-      src: 'https: //www.googletagmanager.com/gtag/js?id=G-ZDSYBMRL1W'},
+    script: [
         {
-          innerHTML: `window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-ZDSYBMRL1W');`
-        }],
+          async: true,
+          src: 'https: //www.googletagmanager.com/gtag/js?id=G-ZDSYBMRL1W'
+        },
+        {
+          innerHTML: `window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-ZDSYBMRL1W');`,
+        }
+      ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
