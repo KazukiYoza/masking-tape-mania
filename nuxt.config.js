@@ -24,10 +24,11 @@ export default {
       // { rel: 'javascript', href: '~/assets/js/script.js' }
     ],
     css:[
-      '~/assets/css/style.css'
+      '~assets/css/style.css'
     ],
     script: [
-      '~/assets/js/script.js',
+      // { src:  'js/script.js'
+      //   },
         {
           async: false,
           src: 'https://www.googletagmanager.com/gtag/js?id=G-ZDSYBMRL1W'
