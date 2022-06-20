@@ -31,9 +31,10 @@ export default {
         // },
         {
           async: false,
-          innerHTML: `window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag("js", new Date());gtag("config", "G-ZDSYBMRL1W");`,
+          innerHTML: `window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-ZDSYBMRL1W');`,
         }
       ],
+      __dangerouslyDisableSanitizers: ['script'],s
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
