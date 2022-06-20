@@ -25,10 +25,10 @@ export default {
       { rel: 'javascript', href: '~/assets/js/script.js' }
     ],
     script: [
-        {
-          async: true,
-          src: 'https: //www.googletagmanager.com/gtag/js?id=G-ZDSYBMRL1W'
-        },
+        // {
+        //   async: true,
+        //   src: 'https: //www.googletagmanager.com/gtag/js?id=G-ZDSYBMRL1W'
+        // },
         {
           innerHTML: `window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-ZDSYBMRL1W');`,
         }
